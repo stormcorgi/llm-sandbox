@@ -27,7 +27,7 @@
         android:textSize="22sp"
         android:gravity="center"
         android:textColor="#888"
-        android:minWidth="200dp"
+        android:minWidth="280dp"
         android:minHeight="120dp"
         android:background="@drawable/result_bg"
         android:padding="24dp"
@@ -41,14 +41,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btn_draw"
-        android:textSize="20sp"
-        android:paddingHorizontal="48dp"
-        android:paddingVertical="16dp"
+        android:textSize="28sp"
+        android:paddingHorizontal="80dp"
+        android:paddingVertical="24dp"
         android:backgroundTint="#FF6200EE"
         android:textColor="#FFF"
         app:layout_constraintTop_toBottomOf="@id/result"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="40dp" />
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
