@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">おみくじ</string>
+    <string name="btn_draw">引く</string>
+    <string name="result_hint">ボタンを押して\nおみくじを引こう</string>
+</resources>
