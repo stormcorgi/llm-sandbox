@@ -7,12 +7,16 @@ android {
     namespace = "com.stormcorgi.omikuji"
     compileSdk = 34
 
+    buildFeatures {
+        buildConfig = true
+    }
+
     defaultConfig {
         applicationId = "com.stormcorgi.omikuji"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
-        versionName = "1.0"
+        versionName = "1.1"
     }
 
     buildTypes {

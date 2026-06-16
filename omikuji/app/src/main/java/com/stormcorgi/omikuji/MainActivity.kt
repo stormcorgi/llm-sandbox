@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.stormcorgi.omikuji.BuildConfig
 import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
@@ -37,5 +38,8 @@ class MainActivity : AppCompatActivity() {
             resultTextView.setTextColor(color)
             resultTextView.textSize = 48f
         }
+
+        val versionLabel = findViewById<TextView>(R.id.version_label)
+        versionLabel.text = "v${BuildConfig.VERSION_NAME}"
     }
 }
